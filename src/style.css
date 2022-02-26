@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-style{
+    @apply border-2 rounded
+}
+.card{
+    @apply bg-secondary p-10 rounded
+}
+.card-title{
+    @apply py-6 font-semibold text-lg
+}
+.card-content{
+    @apply text-sm text-gray-500
+}
+.features{
+    @apply text-3xl font-semibold mb-20
+}
